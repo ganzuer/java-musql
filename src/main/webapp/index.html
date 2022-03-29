@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+</head>
+
+<body>
+<div class="loginBox">
+    <h2>login</h2>
+    <form action="/login?action=login" method="post">
+        <div class="item">
+            <input type="text" required name="name" id="name">
+            <label for="name">userName</label>
+        </div>
+        <div class="item">
+            <input type="password" required name="password" id="password">
+            <label for="password">password</label>
+        </div>
+        <button class="btn">
+            submit
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </form>
+    <a href="/login?action=lookAround">lookAround</a>
+</div>
+</body>
+
+</html>
